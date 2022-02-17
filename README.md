@@ -16,7 +16,9 @@ Clicking below instances will show more instances on the sidebar that are simila
 Install MongoDB. For example, on MacOS the easiest way to do this is with [Homebrew](https://brew.sh), by running the following command.
 
 ```bash
-brew install mongodb
+brew tap mongodb/brew
+
+brew install mongodb-community@5.0
 ```
 
 For other platforms, see the [MongoDB installation guide](https://docs.mongodb.com/manual/installation/).
